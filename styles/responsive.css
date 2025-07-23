@@ -1,13 +1,35 @@
 
 /* Tablet device */
 
+
 /* navbar */
 @media screen and (min-width:577px) and (max-width:992px) {
 
 .nav-container{
-    display: flex;
+display: flex;
     gap: 50px;
+ }
+
+
+/* banner */
+.banner-container{
+   
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: end;
+     margin-top: 100px;
+     
+    
 }
+.banner-content{
+    max-width: 100%;
+  
+}
+
+
+
 
 }
 
@@ -32,8 +54,45 @@
 /* navbar */
 @media screen and (max-width:576px) {
 
+.nav-container{
+    max-width: 100%;
+    margin: 20px 0;
+   padding: 0 10px;
+}
+
 .home a, .shop a, .about a{
     display: none;
+
+}
+/* banner */
+.banner-container{
+    max-width: 100%;
+    margin: 0;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: end;
+     margin-top: 50px;
+   
+    
+}
+.banner-content{
+    max-width: 100%;
+    padding: 0 10px;
+  
+}
+.banner-content h2{
+    
+font-size: 1.5rem;
+margin-bottom: 13px;
+margin-top: 20px;
+line-height: 30px;
+}
+
+.banner-content p{
+color: rgba(0, 0, 0, 0.5);
+font-size: 0.875rem;
 
 }
 
