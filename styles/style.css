@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.Inter{
+     font-family: "Inter", sans-serif;
+}
+
+/* navbar */
+header{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.nav-links li{
+    list-style: none;
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    
+}
+.home a{
+color: rgb(37, 36, 50);
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+
+}
+.shop a, .about a{
+color: rgb(137, 135, 161);
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+
+}
+.cart-icon a{
+color: rgb(0, 0, 0);
+font-size: 1rem;
+font-weight: 400;
+
+}

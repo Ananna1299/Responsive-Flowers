@@ -1,0 +1,52 @@
+
+/* Tablet device */
+
+/* navbar */
+@media screen and (min-width:577px) and (max-width:992px) {
+
+.nav-container{
+    display: flex;
+    gap: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device */
+
+
+/* navbar */
+@media screen and (max-width:576px) {
+
+.home a, .shop a, .about a{
+    display: none;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
