@@ -220,12 +220,25 @@ margin-bottom: 20px;
         position: relative;
       
     }
+    /* animation */
+    @keyframes badge-round {
+    
+
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+        
+    }
     .badge-img{
         position: absolute;
         width: 286px;
         height: 286px;
         top: -24%;
         right: -20%;
+        animation: badge-round 5s infinite forwards linear;
     }
 
 
