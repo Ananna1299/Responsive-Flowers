@@ -227,3 +227,118 @@ margin-bottom: 20px;
         top: -24%;
         right: -20%;
     }
+
+
+    /* deal-container */
+.lastest-deal-container{
+    max-width: 80%;
+    margin: 0 auto;
+    
+     margin-top: 120px;
+    
+}
+
+.deal-img-container{
+    margin-top: 120px;
+    display: flex;
+    gap: 28px;
+  
+
+}
+.container2{
+    width: 50%;
+    position: relative;
+    flex: 1;
+    
+
+}
+.container2 img{
+    height: 100%;
+    border-radius: 20px;
+    
+    
+    
+}
+.gradient{
+    height: 99%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+     border-radius: 20px;
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+   
+
+
+}
+.flower1, .flower2{
+    border-radius: 20px;
+    
+
+}
+.container1-flower1{
+    position: relative;
+}
+.gradient1{
+    height: 99%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    border-radius: 20px;
+
+}
+
+.container1-flower2{
+    position: relative;
+}
+.gradient2{
+    height: 98%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    border-radius: 20px;
+
+}
+.text1,.text2, .text3{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.text1 h5, .text2 h5{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.text1 a, .text2 a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.text3 h5{
+     font-size: 2.3rem;
+    font-weight: 700;
+     margin-bottom: 5px;
+
+}
+.text3 a{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
