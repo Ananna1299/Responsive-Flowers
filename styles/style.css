@@ -103,3 +103,74 @@ text-align: left;
 .banner-img img{
     display: block;
 }
+
+
+/* plant-container */
+.plant-container{
+    max-width: 80%;
+    margin: 0 auto;
+    
+     margin-top: 120px;
+    
+}
+.heading{
+    text-align: center;
+}
+.heading h3{
+   
+font-size: 3.125rem;
+font-weight: 700;
+}
+.heading h3>span{
+    color: rgb(233, 90, 8);
+}
+
+.heading p{
+color: rgba(0, 0, 0, 0.5);
+
+font-size: 1.375rem;
+font-weight: 400;
+padding: 16px 126px 0 126px;
+
+}
+.plant-cart-section{
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.plant-cart{
+    max-width: 270px;
+    height: 485px;
+}
+.plant-cart h4{
+color: rgb(17, 17, 17);
+
+font-size: 1.375rem;
+font-weight: 500;
+margin-top: 20px;
+text-align: center;
+}
+.plant-cart p{
+color: rgb(17, 17, 17);
+
+font-size: 1.375rem;
+font-weight: 700;
+margin-top: 20px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.btn{
+     width: 100%;
+     height: 50px;
+     padding: 0 50px;
+     background-color: rgb(233, 90, 8);
+     color: white;
+     font-size: 1rem;
+     font-weight: 600;
+     border: none;
+     text-align: center;
+     
+    }
