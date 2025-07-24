@@ -174,3 +174,56 @@ margin-bottom: 20px;
      text-align: center;
      
     }
+    /* flower-lover-container */
+    .flower-lover-container{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 210px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+
+    }
+    .flower-lover-description{
+        max-width: 50%;
+        padding-top: 20px;
+    }
+    .flower-lover-description h2{
+    color: rgb(0, 0, 0);
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+    }
+    .flower-lover-description h2>span{
+        display: block;
+    }
+
+    .flower-lover-description ul{
+        padding-left: 20px;
+    }
+     .flower-lover-description ul>li{
+    color: rgba(0, 0, 0, 0.5);
+    
+    font-size: 1.375rem;
+    font-weight: 400;
+  
+    text-align: left;
+    margin-bottom: 20px;
+    
+    }
+
+    .main-img{
+        display: block;
+    }
+    .flower-lover-img{
+        position: relative;
+      
+    }
+    .badge-img{
+        position: absolute;
+        width: 286px;
+        height: 286px;
+        top: -24%;
+        right: -20%;
+    }
