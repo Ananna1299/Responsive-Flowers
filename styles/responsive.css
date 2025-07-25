@@ -154,9 +154,12 @@ font-weight: 700;
     font-weight: 700;
     margin-bottom: 20px;
     
-    
-    
+}
+.input-btn .btn1 {
 
+width: 50%;
+   
+    
 }
 /* footer */
 
@@ -420,10 +423,14 @@ margin-bottom: 20px;
     font-weight: 700;
     margin-bottom: 20px;
     
-    
-    
-
 }
+.input-btn .btn1 {
+font-size: 0.8rem;
+width: 50%;
+}
+
+
+
 
 /* footer */
 footer{
